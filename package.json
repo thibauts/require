@@ -1,0 +1,17 @@
+{
+  "name": "require",
+  "version": "0.0.0",
+  "description": "Experiments with module loading in the browser",
+  "main": "bundler.js",
+  "dependencies": {
+    "combine-source-map": "~0.3.0",
+    "convert-source-map": "~0.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thibauts",
+  "license": "MIT",
+  "private": "true"
+}
