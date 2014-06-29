@@ -4,7 +4,22 @@ Allows async require of remote modules over http through `require(url, callback)
 
 This is a work in progress and the API is still lacking (eg. no way to dynamically preload bundles yet).
 
+Dependencies
+------------
+
+``` bash
+npm install --global uglify-js coffee-script
+```
+
 Usage
 -----
 
-Clone the repo, run `make` in the project directory and then `python -m SimpleHTTPServer`. Direct your browser to localhost on port 8000 and check the console.
+``` bash
+git clone https://github.com/thibauts/require.git
+cd require
+npm install
+make
+python -m SimpleHTTPServer
+```
+
+Then direct you browser to `http://localhost:8000/` and check the console.
