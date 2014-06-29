@@ -7,4 +7,4 @@ This is a work in progress and the API is still lacking (eg. no way to dynamical
 Usage
 -----
 
-Clone the repo, run `make` and the project directory and then `python -m SimpleHTTPServer`. Direct your browser to localhost on port 8000 and check the console.
+Clone the repo, run `make` in the project directory and then `python -m SimpleHTTPServer`. Direct your browser to localhost on port 8000 and check the console.
